@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Projects, an interactive D3 visualization, and data science interests.">
+  <title>Projects | Data Science Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header"><div class="container nav-wrap"><a class="brand" href="index.html"><span class="brand-icon">◈</span> Data<span>Lab</span></a><nav aria-label="Main navigation"><a class="nav-link" href="index.html">Home</a><a class="nav-link active" aria-current="page" href="projects.html">Projects &amp; Visualizations</a></nav></div></header>
+  <main id="main">
+    <section class="page-top container"><div><p class="eyebrow">PROJECTS / EXPLORATION</p><h1>Learning by <span>building.</span></h1><p class="lead">From gathering information to telling a clear visual story, every project is a chance to practice.</p></div><img src="assets/project-process.svg" alt="Diagram showing the steps ask, prepare, analyze, and communicate" width="520" height="310"></section>
+    <section class="section muted"><div class="container"><p class="eyebrow">01 / INTERACTIVE VISUALIZATION</p><h2>Practice time by topic</h2><p class="section-intro">An interactive D3.js bar chart showing <strong>illustrative sample hours</strong> for different learning topics. These are example values for demonstrating visualization, not a record of my actual study time.</p>
+      <div class="chart-card"><div class="chart-heading"><div><h3>Example weekly learning hours</h3><p>Hover over or focus on a bar to see its value.</p></div><span class="sample-tag">SAMPLE DATA</span></div><div id="study-chart" role="img" aria-label="Bar chart showing example hours: Python 7, Visualization 5, Statistics 4, SQL 3, Communication 4."></div><p id="chart-fallback" class="chart-note">Loading interactive chart… If it does not appear, check your internet connection (D3 is loaded from a CDN).</p></div>
+    </div></section>
+    <section class="section container"><div class="two-col"><div><p class="eyebrow">02 / MY PROCESS</p><h2>What goes into a strong analysis?</h2><img class="inline-art" src="assets/project-process.svg" alt="Four stages of an analysis project from question to communication" width="520" height="310"></div><div class="prose">
+        <p>A data project starts with a question, not a chart. Before opening a dataset, I try to think about what the information represents and what someone might learn from it. A useful question should be specific enough to explore, but open enough to reveal something new. For example, a project about transactions might ask which categories appear most frequently or how spending changes over time. Questions like these influence how the dataset needs to be organized and what kinds of visual comparisons will be meaningful.</p>
+        <p>Next comes preparation. Real-world data may contain duplicate rows, missing values, inconsistent labels, or values stored in the wrong format. Cleaning those issues makes later analysis more reliable. Exploratory data analysis is where I summarize distributions, look for patterns, and check for unusual observations. I am learning to use Python and plotting tools for this work, while also experimenting with web-based visualization through D3.js. Different tools offer different advantages, and selecting the right one depends on the purpose of the project.</p>
+        <p>The final step is communicating the result responsibly. Charts should include useful labels, readable colors, and enough context for readers to understand what is being compared. A result also needs an explanation of its limitations. For example, the D3 chart on this page uses fictional sample data because its purpose is to demonstrate interactive web visualization rather than to report an actual research finding. My goal is to develop a habit of showing my methods clearly, being honest about uncertainty, and making a project easy for others to follow.</p>
+        <h3>My analysis checklist</h3>
+        <ul><li>Define a useful question and understand the dataset.</li><li>Check data quality and clean inconsistencies.</li><li>Explore the data with summary statistics and charts.</li><li>Explain what the results show and what they do not show.</li><li>Communicate findings with accessible visualizations.</li></ul>
+      </div></div></section>
+    <section class="contact-section"><div class="container contact-inner"><div><p class="eyebrow">03 / CONNECT</p><h2>Keep exploring.</h2><p>Contact: <a href="mailto:hello@example.com">hello@example.com</a> <strong>(replace before publishing)</strong></p></div><a class="button light" href="index.html">Back to home ↗</a></div></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><span>© 2026 DataLab · Student portfolio</span><span>Built with HTML, CSS &amp; D3.js</span></div></footer>
+</body>
+</html>
